@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Me: Jackson Attwood</title>
+<link href="AboutPageAssets/styles/aboutPageStyle.css" rel="stylesheet" type="text/css">
+
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="https://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!-- Header content -->
+<header>
+  <div class="profileLogo"> 
+    <!-- Profile logo. Add a img tag in place of <span>. -->
+  <a href="https://jacksonattwood.com"><img src="IMG_6036 - Copy.png" width="150" height="46" alt="Signature"></a>  </div>
+  <div class="profilePhoto"> 
+    <!-- Profile photo --> 
+    <img src="Me 259x259.png" alt="sample"> </div>
+  <!-- Identity details -->
+  <section class="profileHeader">
+    <h1>Jackson Attwood</h1>
+    <h3>"Why do the military always say 'copy that' like dude just be yourself"</h3>
+    <hr>
+    <p>Jackson Attwood is a 14 year-old high school student from Sydney, New South Wales, Australia. Jackson has grown up in the local Hornsby area all his life, gaining intersts in Hockey, Photography, Music, Cars and Technology. Currently in the middle of completing his Bronze Duke of Ed award, Jackson is capable of showing respect to other people no matter the situation, he is able to achieve goals he has set for himself and he is able to work well as a volunteer in the community. </p>
+  </section>
+  <!-- Links to Social network accounts -->
+  <aside class="socialNetworkNavBar">
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <a href="https://instagram.com/jacksona106" target="_blank"><img src="AboutPageAssets/images/instagram.png" alt="Instagram" width="74"></a> </div>
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <a href="https://facebook.com/jacksona106" target="_blank"><img src="AboutPageAssets/images/facebook.png" alt="Facebook" width="74"></a> </div>
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <a href="https://open.spotify.com/user/21ndud25ekxaevog5ysxabcbq?si=m90SP-yMRpanoyeApKZWVg" target="_blank"><img src="AboutPageAssets/images/spotify.png" alt="Twitter" width="75"></a> </div>
+</aside>
+</header>
+<!-- content -->
+<section class="mainContent"> 
+  <!-- Contact details -->
+  <section class="section1">
+    <h2 class="sectionTitle">Get in Contact</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">
+    <div class="section1Content">
+      <p><span>Email :</span> <a href="/cdn-cgi/l/email-protection#d6bcb7b5bda5b9b896bcb7b5bda5b9b8b7a2a2a1b9b9b2f8b5b9bb"><span class="__cf_email__" data-cfemail="d9b3b8bab2aab6b799b3b8bab2aab6b7b8adadaeb6b6bdf7bab6b4"><span class="__cf_email__" data-cfemail="7319121018001c1d3319121018001c1d120707041c1c175d101c1e">[email&#160;protected]</span></span></a></p>
+      <p><span>Website :</span> <a href="https://jacksonattwood.com">jacksonattwood.com</a></p>
+    </div>
+  </section>
+  <!-- Previous experience details -->
+  <section class="section2">
+    <h2 class="sectionTitle">Experience</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">
+    <!-- First Title & company details  -->
+    <article class="section2Content">
+      <h2 class="sectionContentTitle">Triple H FM, Hornsby <a href="https://triplehfm.com.au" target="_blank">(triplehfm.com.au)</a></h2>
+      <h3 class="sectionContentSubTitle">Volunteer Co-Host @ Generation HOPE / October - 2019</h3>
+      <p class="sectionContent"> ​Triple H 100.1FM is the Hornsby Ku-ring-gai Community Radio Station. Their programs connect with the interests of the vibrant and diverse Hornsby Ku-ring-gai Community. ​They give a voice to their community and broadcast an eclectic range of music and programs for all ages of their multicultural community. The program is being presented by Ms Jinky Marsh <a href="https://jinkymarsh.com" target="_blank">(www.jinkymarsh.com)</a> who herself was nurtured at a young age. Ms Marsh is joined in by a local Youth co-presenter each month. This allows selected co-presenters to gain invaluable experience on radio broadcasting and presenting. It is an honour to be the first youth co-host for this program and it has helped me gain knowledge in public speaking and radio presenting. </p>
+    </article>
+    <!-- Second Title & company details  -->
+    <article class="section2Content">
+      <h2 class="sectionContentTitle"> Volunteer on NSW Cancer Council's Hornsby Relay for Life Organising Team</h2>
+      <h3 class="sectionContentSubTitle">General Team Member / 2017 - 2019</h3>
+      <p class="sectionContent"> Relay For Life is a community fundraising challenge for Cancer Council NSW. Teams of friends, families, schools and colleagues raise money in the lead up to an overnight event, where team members take turns walking around a track to signify that cancer never rests, so neither do we. Organised by passionate, local volunteers, each Relay event is an experience that will stay with you forever. We host activities designed to celebrate Survivors and recognise their Carers. We honour those we’ve lost during our candlelight ceremony, and we continue to raise funds to support people affected by cancer, fund research and improve cancer prevention. Jackson is a proud member of the organising team for his local Relay and is passionate a</p>
+    </article>
+    <!-- Replicate the above Div block to add more title and company details --> 
+  </section>
+  <!-- Links to expore your past projects and download your CV -->
+  <aside class="externalResourcesNav">
+    <div class="externalResources"> <a href="/files/Attwood, Jackson CV.pdf" title="Download CV Link">DOWNLOAD CV</a> </div>
+    <span class="stretch"></span>
+    <div class="externalResources"><a href="/cdn-cgi/l/email-protection#670d06040c140809270d06040c140809061313100808034904080a" title="Contact link">CONTACT ME</a> </div>
+  </aside>
+</section>
+<footer>
+  <hr>
+  <p class="footerDisclaimer">2019  Copyrights - <span>All Rights Reserved</span></p>
+  <p class="footerNote">Jackson Attwood - <span><a href="/cdn-cgi/l/email-protection#513b30323a223e3f113b30323a223e3f302525263e3e357f323e3c" title="footer email">Email me</a></span></p>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
