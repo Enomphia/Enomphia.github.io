@@ -1,0 +1,33 @@
+<!--
+    I am very sorry if this is the coolest game you have seen in your life.
+    WARNING: this may change the way you think about gaming and all other games will seem bad
+-->
+
+<body>
+    <p id="clicks">Clicks: 0</p>
+    <button onclick="onClick()">OMG CLICK ME!?!?!???? 😳😳😳😳</button>
+    <title id="titlelol">Clicker!</title>
+</body>
+
+<script>
+    var milestones = [10, 50, 100, 1000];
+    var amountOfClicks = parseInt(localStorage.getItem("clicks")) || 0;
+
+    document.getElementById("clicks").innerHTML = `Clicks: ${amountOfClicks}`;
+    document.getElementById("titlelol").innerHTML = `Clicker! - (${amountOfClicks})`;
+
+    function onClick() {
+        amountOfClicks += 1;
+        document.getElementById("clicks").innerHTML = `Clicks: ${amountOfClicks}`;
+        document.getElementById("titlelol").innerHTML = `Clicker! - (${amountOfClicks})`;
+        saveData();
+
+        // check if on milestone.
+        if (milestones.includes(amountOfClicks)) {
+            alert(`Woo hoo!🥂🥳🥳\nYou reached a milestone!\n'${amountOfClicks}'`);
+        };
+    }
+    function saveData() {
+        localStorage.setItem("clicks", amountOfClicks);
+    }
+</script>
